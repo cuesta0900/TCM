@@ -1,0 +1,837 @@
+	*{ margin: 0 auto; }
+	
+div.conteudomat{
+	height:73.5vw;
+	margin-bottom:5vw;
+	width:90%;
+	border:solid 0.1vw #000;
+	border-radius:1vw;
+	margin-top:2vw;
+	margin-bottom:5vw;
+	
+}
+
+div.titulo{
+	width:100%;
+	background-color: #05003d;
+	height:auto;
+	border-top-left-radius:1vw;
+	border-top-right-radius:1vw;
+}
+
+h1.selecionar{
+	color:#fff;
+	font-size:3vw;
+	padding:1vw 3vw;
+	font-family:  'Ubuntu', sans-serif;
+}
+
+div.materias{
+	height:4.5vw;
+	width:100%;
+}
+
+p.nomemateria{
+	padding-top:1vw;
+	padding-bottom:1vw;
+	padding-left: 2vw;
+	font-size:2vw;
+	border-bottom:solid 0.1vw #000;
+	font-family: Helvetica;
+}
+
+p.nomemateria1{
+	padding-top:1vw;
+	padding-left: 2vw;
+	font-size:2vw;
+	font-family: Helvetica;
+}
+
+
+a.materia{
+	color:#000;
+	text-decoration:none;
+}	
+
+a:hover.materia {
+	color:black;
+
+}
+
+div.conteudoport{
+	height:46.5vw;
+	width:90%;
+	border:solid 0.1vw #000;
+	border-radius:1vw;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.conteudohist{
+	height:82.5vw;
+	width:90%;
+	border:solid 0.1vw #000;
+	border-radius:1vw;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.conteudogeo{
+	height:33vw;
+	width:90%;
+	border:solid 0.1vw #000;
+	border-radius:1vw;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.conteudobio{
+	height:auto;
+	width:90%;
+	border:solid 0.1vw #000;
+	border-radius:1vw;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.conteudoce{
+	height:87vw;
+	width:90%;
+	border:solid 0.1vw #000;
+	border-radius:1vw;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.prova{
+	height:24vw;
+	width:90%;
+	border:solid 0.1vw #000;
+	border-radius:1vw;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.gabarito{
+	width:30%;
+	height: 3.5vw;
+	margin-right: 3vw;
+	float:right;
+}
+
+div.ajuda{
+	height:auto;
+	width:90%;
+	margin-bottom:2vw;
+	margin-left:4vw;
+	margin-right:2vw;
+
+}
+
+h2.dica{
+	font-size:2vw;
+	font-family:  'Ubuntu', sans-serif;
+	margin-top:2vw;
+}
+
+/* Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas Aulas */
+
+div.aulafraçao{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+h1.nomeaula{
+	font-size:3.4vw;
+	font-family:  arial;
+}
+
+
+h2.sub{
+	font-size:2.6vw;
+	font-family: arial;
+	margin-top:2vw;
+}
+
+b.topico{
+	font-size: 1.5vw; 
+	font-family:arial;
+	text-align: justify;
+	margin-bottom:1vw;
+}
+
+
+a.link2{
+	text-decoration:none;
+	color:#0000cc;
+}
+
+img.aula{
+	width:31%;
+}
+
+img.aulafraçao{
+	height:6vw;
+	width:20%;
+}
+
+img.multiplifraçao{
+	width:15%;
+	height:10vw;
+	margin-top:1vw;
+	margin-bottom:1vw;
+}
+
+img.divfraçao{
+	width:18.5%;
+}
+
+div.aulammc{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+img.mdc{
+	height:20vw;
+}
+
+img.mmc{
+	height:15vw;
+	width:15%;
+}
+
+img.mmc2{
+	height:10vw;
+	width:10%;
+}
+
+p.exemplo{
+	font-size: 1.5vw; 
+	font-family:"Helvetica";
+	text-align: right;
+}
+	
+div.aulaequaçao{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.aular3{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+p.respostas{
+	font-size: 0.7vw; 
+	font-family:"Helvetica";
+	text-align: justify;
+}
+
+div.aulaporcentagem{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.aulapit{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+li.ex{
+	font-size: 1.6vw; 
+	font-family:"Helvetica";
+	text-align: justify;
+}
+
+.aulaequaçao2{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+img.expit{
+	width:25%;
+}
+
+.tales{
+	width:35%;
+	height:8vw;
+}
+	
+.tales2{
+	width:25%;
+	height:15vw;
+}
+
+.tales1{
+	height:4vw;
+}
+
+.tales3{
+	width:24%;
+}
+.tales4{
+	height:12vw;
+}
+
+div.aulatales{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.tri{
+	height:18vw;
+}
+
+
+div.aulaplana{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.sen{
+	width:40%;
+}
+
+.aulasen{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulasistemas{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulac{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.cubo{
+	height:18vw;
+}
+
+.aulagespaço{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.venn{
+	height:12vw;
+}
+
+.aulaconjunto{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.venn2{
+	height:30vw;
+}
+
+.aulasubs{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.verbo{
+	width:90%;
+}
+
+.aulaverbo{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.adverbio{
+	height:30vw;
+}
+
+.aulain{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulasujeito{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulapredicado{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulacoor{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulasub{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulaconcor{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulafunçao{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulapre{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.pre{
+	height:20vw;
+}
+
+.grecia{
+	height:25vw;
+}
+
+.aulagrecia{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.roma{
+	height: 15vw;
+}
+
+.aularoma{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.media{
+	height: 28vw;
+}
+
+.aulamedia{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.moderna{
+	height:44vw;
+}
+
+.moderna2{
+	height:18vw;
+}
+
+.moderna3{
+	height:25vw;
+}
+
+.aulamoderna{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.colonia{
+	height:35vw;
+}
+
+.aulacolonia{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.ilu{
+	height:25vw;
+}
+
+.aulailu{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.rev{
+	height:20vw;
+}
+
+.rv{
+	height:35vw;
+}
+
+.aularevf{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.revf{
+	margin-left:24vw;
+	height:23vw;
+}
+
+.txtvideo{
+	font-size: 1.5vw; 
+	font-family:arial;
+	text-align: center;
+
+}
+
+.aulareinado1{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.pedro{
+	height:25vw;
+	
+}
+
+.aularegencia{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.rei2{
+	height:30vw;
+}
+
+.aularei2{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulavelha{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.urss{
+	height:30vw;
+}
+
+.aulaurss{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+div.cabeçalhourss{
+	height:11vw;
+	width:100%;
+	background-color:#cc0000;
+
+}
+
+div.menuurss{
+	width:90%;
+	height:4.5vw;
+	background-color:#cc0000;
+	display:flex;
+	border-radius:1vw;  
+	margin-top:1vw;
+}	
+
+div.menuurss ul{
+	list-style-type:none;
+	}
+	
+div.menuurss ul li{
+	float:left;
+	font-size:1.4vw;
+}
+
+div.menuurss ul li a{
+	padding: 1.5vw 2vw; 
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	font-family:arial;
+}
+
+div.menuurss ul li a:hover{
+	text-decoration: underline;
+}
+
+.ww{
+	height:20vw;
+}
+
+.wwt{
+	height:30vw;
+}
+
+.wwt1{
+	height:40vw;
+}
+
+.aulaww{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.aulavargas{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;	
+}
+
+.vargas{
+	height:22vw;
+}
+
+.nazi{
+	height:15vw;
+}
+
+.nazi1{
+	height:30vw;
+}
+
+.aulaww2{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;	
+}
+
+.ditadura{
+	height:22vw;
+}
+
+.d2{
+	height:18vw;
+}
+
+.d3{
+	height:30vw;
+}
+
+.auladitadura{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.d4{
+	height:20vw;
+}
+
+.aularelevo{
+	height:auto;
+	width:90%;
+	margin-top:2vw;
+	margin-bottom:5vw;
+}
+
+.dino{
+	height:18vw;
+}
+
+.era{
+	height:25vw;
+}
+
+.rocha{
+	height:18vw;
+}
+
+.bacia{
+	height:30vw;
+}
+
+.clima{
+	height:25vw;
+}
+
+b{
+	font-size: 1.5vw; 
+	font-family:arial;
+	text-align: justify;
+	margin-bottom:1vw;
+}
+
+.mapa{
+	height:30vw;
+}
+
+.fala{
+	height:auto;
+	width:70%;
+	position:center;
+	margin-bottom: 2vw;
+}
+
+p.a{
+	font-size: 1.5vw; 
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: justify;
+	color:#b9c4bc;
+}
+
+.cap{
+	height:25vw;
+}
+
+.cap1{
+	height:35vw;
+}
+
+.com{
+	height:35vw;
+
+}
+
+.fenomeno{
+	height:18vw;
+}
+
+.estado{
+	height:28vw;
+}
+
+.vel{
+	height:5vw;
+}
+
+.grafico{
+	height:22vw;
+}
+
+i{
+	font-size: 1.5vw; 
+	font-family:arial;
+	text-align: justify;
+	margin-bottom:1vw;
+}
+
+.newton{
+	height:	20vw;
+}
+
+.newton1{
+	height:4vw;
+}
+
+.newton2{
+	height:1.8vw;
+}
+
+.newton3{
+	height:8vw;
+}
+
+.peri{
+	height:30vw;
+}
+
+.fodastico{
+	height:40vw;
+	width:60%;
+	background-color:yellowgreen;
+	margin-top:3vw;
+}
+
+.fodinha{
+	height:20vw;
+	width:50%;
+	background-color:purple;
+	float:left;
+}
+
+.inor{
+	width:100%;
+	height: 20vw;
+}
+
+.cel{
+	height:25vw;
+}
+
+.zoo{
+	height:25vw;
+}
+
+.vegcel{
+	height:30vw;
+}
+
+.bota{
+	height:20vw;
+}

@@ -1,0 +1,224 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="meusite.css">
+  <link rel="stylesheet" type="text/css" href="conteudo.css">
+  <link rel="stylesheet" href="footer.css">	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+   <title>
+	Sistemas Lineares
+	</title>
+  </head>
+  <body>
+	
+	<div class="cabeçalho">
+	
+		<a href="index.html">
+		<div class="logo">
+		<img src="foto/logo.png" class="logotipo">
+		</div>
+		</a>
+		
+		
+		<div class="inscriçao">
+		<div class="textoinscrição">
+		</div>
+		
+		<div class="escrito">
+		<h3 class="escrito">
+		Curso Preparatório para ETECs
+		</h3>
+		</div>
+			</div>
+	</div>
+		
+	
+	<div class="menu">
+	<ul>
+		
+
+		
+		<li>
+		<a href="https://www.vestibulinhoetec.com.br/unidades-cursos/default.asp?q=S%C3%A3o%20Paulo" target="blank"> Etecs de São Paulo </a>
+		</li>
+		
+		<li> 
+		<a href="eu.html"> Sobre mim </a>
+		</li>
+			
+		<li>
+		<a href="disciplinas.html"> Disciplinas </a>
+		</li>
+		
+		<li>
+		<a href="index.html"> Home </a>
+		</li>
+		
+		<li>
+		<a href="prova.html"> Provas </a>
+		</li>
+		
+		<li>
+		<a href="curso.html"> Sobre o curso </a>
+		</li>
+		
+		
+	</ul>
+	
+	</div>
+	<br>
+	<div class="aulasistemas">
+	<h1 class="nomeaula">
+	Sistemas Lineares
+	</h1>
+	<br>
+	<p class="cpetec">
+	Sistemas Lineares consistem em um conjunto de equações que possuem correlação entre as incógnitas. Sendo assim, o conjunto solução de um sistema 
+	linear é composto pelo valor das incógnitas que satisfazem todas as equações desse sistema.<br>
+	Os valores que as incógnitas vão assumir para validar uma das equações devem ser os mesmos para as outras, ou seja, todas as equações desse sistema linear
+	devem possuir o mesmo conjunto solução.<br>
+	Portanto,dizemos que o conjunto (a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ... ,a<sub>n</sub>) é o conjunto solução de um sistema linear, se este 
+	for a solução de cada uma das equações do sistema linear. Vejamos um exemplo para que possamos compreender melhor toda essa teoria:<br><br>
+	x + y = 10<br>
+	2x - y = 5<br><br>
+	Temos um sistema com duas equações: na primeira podemos dizer diversos conjuntos soluções que satisfazem essa equação, por exemplo, x = 4 e y = 6; 
+	x = 3 e y = 7 e assim por diante. Entretanto devemos encontrar, dentre esses conjuntos, um que satisfaça também a segunda equação.<br>
+	Vamos analisar o conjunto (6,4):<br><br>
+	Na equação x + y = 10, substituindo a solução por x = 6 e y = 4 temos: 6 + 4 = 10 (esse conjunto satisfaz a primeira equação)<br>
+	Na equação 2x - y = 5, temos: 2.6 - 4 = 5, logo 8 = 5 (Falso).<br><br>
+	Esse conjunto solução não satisfaz a segunda equação, por isso não podemos afirmar que esse conjunto solução seja a resposta do sistema linear.<br><br>
+	</p>
+	<h2 class="sub">
+	Sistema Possível e Determinado (SPD):
+	</h2>
+	<p class="cpetec">
+	Ao ser resolvido encontraremos uma única solução, isto é, apenas um único valor para as incógnitas. O sistema a seguir é determinado pois sua única 
+	solução é o par ordenado (4,1)<br><br>
+	x + y = 5<br>
+	x - y = 3<br><br>	
+	</p>
+	<h2 class="sub">
+	Sistema Possível Indeterminado (SPI):
+	</h2>
+	<p class="cpetec">
+	Esse tipo de sistema possui infinitas soluções, os valores x e y assumem inúmeros valores. Observe o sistema a seguir, x e y podem assumir mais de um 
+	valor, (0,4),(1,3),(2,2),(3,1), etc.<br><br>
+	x + y = 4<br>
+	0x + 0y = 0<br><br>
+	</p>
+	<h2 class="sub">
+	Sistema Impossível (SI):
+	</h2>
+	<p class="cpetec">
+	Ao ser resolvido, não encontramos soluções possíveis para as incógnitas, por isso esse tipo de sistema é chamado de impossível (óbvio né). O sistema 
+	a seguir é impossível.<br><br>
+	x + y = 9<br>
+	x + y = 5<br><br>
+	</p>
+	<h2 class="sub">
+	Métodos de Resolução
+	</h2>
+	<b class="topico">
+	Método da Substituição:
+	</b><br>
+	<p class="cpetec">	
+	2x - y = 9 (I)<br>
+	x + y = 12 (II) <br><br>
+	Primeiro passo: isolar o x ou y em uma das equações. Vamos isloar o x na equação II:<br>
+	x + y = 12<br>
+	x = 12 - y<br><br>
+	Substituindo o x na equação I temos:<br>
+	2x - y = 9 <br>
+	2(12 - y) - y = 9<br>
+	24 - 2y - y = 9 <br>
+	-3y = -15<br>
+	y = 5<br><br>
+	para encontrar o valor de x:<br>
+	x = 12 - y<br>
+	x = 12 - 5<br>
+	x = 7<br><br>
+	<b class="topico">
+	Método da Soma:
+	</b>
+	O método da soma é uma forma simplificada de usar o método da substituição. Só é possível quando as equações são dispostas de forma que, ao subtrair 
+	ou somar os polinômios das equações, todas as incógnitas, exceto uma, se anulem.<br><br>
+	2x - y = 9<br>
+	x + y = 12	(+)<br>
+	3x + 0y = 21<br>
+	x = 7<br><br>
+	para achar y temos:<br>
+	y = 12 - x<br>
+	y = 12 - 7<br>
+	y = 5<br><br>
+	</p>
+	<h2 class="sub">
+	Exercícios
+	</h2>
+	<b class="topico">
+	Aviso: Esta será a última aula de matemática com exercícios<br><br>
+	</B>
+	<p class="cpetec">
+	1) Resolva os sistemas lineares abaixo utilizando o método da substituição:<br>
+	a) x-y = 5<br>
+	y = 2x + 8<br><br>
+	b) x + y = 9<br>
+	y = x - 5<br><br>
+	c) x - y = 7<br>
+	x - y = 3<br><br>
+	d) x + y = 7<br>
+	x - y = 1<br><br>
+	2) Resolva os sistemas lineares abaixo utilizando o método da soma:<br>
+	a)  x - y = 5<br>
+	 x + y = 7<br><br>
+	b)  x + 2y = 7<br>
+	 x - 2y = -5<br><br>
+	c) 2x - y = 0<br>
+	x + y = 15<br><br>
+	d) x - y = 6<br>
+	x + y = -7<br><br>
+	3)Uma prova de múltipla escolha com 60 questões foi corrigida da seguinte forma: o aluno ganhava 5 pontos por 
+	questão que acertava e perdia 1 ponto por questão que errava ou deixava em branco. Se um aluno totalizou 210 pontos, 
+	qual o número de questões que ele acertou?<br><br>
+	4)Em um escritório de advocacia trabalham apenas dois advogados e uma secretária. Como o Dr. André e o Dr. Carlos sempre 
+	advogam em causas diferentes, a secretaria Cláudia coloca 1 grampo em cada processo do Dr. André e 2 grampos em cada processo do Dr. Carlos, para 
+	diferenciá-los facilmente no arquivo. Sabendo-se que , ao  todo, são 78 processos nos quais foram usados 110 grampos. 
+	Calcule o número de processos do Dr. Carlos. <br><br>
+	5) Um pacote tem 48 balas: algumas de hortelã e as demais de laranja. Se a terça parte correspondente ao dobro do número de balas de hortelã excede
+	a metade do de laranjas em 4 unidades, determine o número de balas de hortelã e laranja.<br><br>
+	6) Na compra de duas canetas e um caderno, Joana gastou R$ 13,00. Carlos comprou quatro canetas 
+	e três cadernos e gastou R$ 32,00. Determine o valor de uma caneta e um caderno.
+	</p>
+	</div>
+	
+	<footer class="footer-distributed">
+			<div class="footer-left">
+				<img src="foto/logo.png" class="imgfooter">
+				<p class="footer-links">
+					<a href="https://www.vestibulinhoetec.com.br/unidades-cursos/default.asp?q=S%C3%A3o%20Paulo" target="blank">Etecs de São Paulo</a>
+					·
+					<a href="eu.html"> Sobre mim</a>
+					·
+					<a href="disciplinas.html"> Disciplinas</a>
+					·
+					<a href="index.html">Home</a>
+					·
+					<a href="prova.html">Provas</a>
+					·
+					<a href="curso.html"> Sobre o curso</a>
+				</p>
+				<p class="footer-company-name">CPETEC&copy; 2019, Todos os direitos reservados </p>
+			</div>
+		</footer>
+</body>
+</html>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

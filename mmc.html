@@ -1,0 +1,216 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="meusite.css">
+  <link rel="stylesheet" type="text/css" href="conteudo.css">
+  <link rel="stylesheet" href="footer.css">	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+   <title>
+    MMC e MDC
+   </title>
+  </head>
+  <body>
+	
+	<div class="cabeçalho">
+	
+		<a href="index.html">
+		<div class="logo">
+		<img src="foto/logo.png" class="logotipo">
+		</div>
+		</a>
+		
+		
+		<div class="inscriçao">
+		<div class="textoinscrição">
+		</div>
+		
+		<div class="escrito">
+		<h3 class="escrito">
+		Curso Preparatório para ETECs
+		</h3>
+		</div>
+			</div>
+	</div>
+		
+
+	
+	<div class="menu">
+	<ul>
+		
+
+		
+		<li>
+		<a href="https://www.vestibulinhoetec.com.br/unidades-cursos/default.asp?q=S%C3%A3o%20Paulo" target="blank"> Etecs de São Paulo </a>
+		</li>
+		
+		<li> 
+		<a href="eu.html"> Sobre mim </a>
+		</li>
+			
+		<li>
+		<a href="disciplinas.html"> Disciplinas </a>
+		</li>
+		
+		<li>
+		<a href="index.html"> Home </a>
+		</li>
+		
+		<li>
+		<a href="prova.html"> Provas </a>
+		</li>
+		
+		<li>
+		<a href="curso.html"> Sobre o curso </a>
+		</li>
+		
+		
+	</ul>
+	
+	</div>
+	<br>
+	
+<div class="coraula">
+	<br>
+	<div class="aulammc">
+	<h1 class="nomeaula">
+	MMC e MDC
+	</h1>
+	<h2 class="sub">
+	Máximo Divisor Comum (MDC):
+	</h2>
+	<br>
+	<p class="cpetec">
+	O máximo divisor comum (MDC) entre os dois números naturais é obtido a partir da intersecção dos divisores naturais, 
+	escolhendo-se o maior. O MDC pode ser calculado pelo produto dos fatores primos que são comuns tomando-se sempre o de menor 
+	expoente.
+	O MDC também pode ser calculado pela decomposição simultânea em fatores primos, tomando apenas os fatores que dividem simultaneamente.
+	</p>
+	<br>
+	<br>
+	<b class="topico">
+	Decomposição simultânea
+	</b>
+	<p class="cpetec">
+	A decomposição simultânea ou fatoração simultânea consiste em dividir varias vezes os números dados pelo menor fator primo, 
+	se o número não for divisível pelo menor fator, ele deve ser repetido.
+	O MDC é obtido pela multiplicação dos fatores primos comuns, ou seja, os fatores que dividem os números dados ao mesmo tempo.
+	</p>
+	<br>
+	<b class="topico">Exemplo:</b>
+	<br>
+	<p class="cpetec">
+	Encontre o máximo divisor comum dos números 180, 240 e 270.
+	Pela decomposição simultânea devemos dividir simultaneamente os três números dados começando pelo menor número primo possível até chegar ao resto 1.
+	</p>
+	<img src="foto/mdc.png" class="mdc"><br><br>
+	<p class="cpetec">
+	O que fizemos foi dividir os números dados pelo menor primo, o número 2. Dividimos o três números. 
+	Depois verificamos se ainda é possível continuar dividindo pelo 2, sim. Os números que não puderem ser divididos devem ser repetidos, como o 135.
+	Seguimos dividindo pelo 2. Quando não for mais possível dividi-los pelo 2, procuramos o menor número primo possível que possamos dividir pelo 
+	menos um deles, neste caso o número primo 3 pode dividir 45, 15 e 135.
+	Seguimos dividindo pelo 3, quando possível, e conservando aqueles que não podem. 
+	Por fim, somente o número 5, que também é primo, pode dividir o número 5, resto das divisões anteriores.
+	Esse processo acaba quando encontramos resto 1 para todos os números dados. 
+	O MDC é a multiplicação dos números primos que puderam dividir todos os números dados ao mesmo tempo.
+	Portanto, o MDC (180; 240; 270) = 2 x 3 x 5 = 30.
+	</p>
+	<br>
+	<br>
+	<h2 class="sub">
+	Mínimo Múltiplo Comum(MMC)
+	</h2><br>
+	<b class="topico"> O que é M.M.C.? </b>
+	<p class="cpetec">
+	Dois ou mais números sempre têm múltiplos comuns a eles. Vamos achar os múltiplos comuns de 4 e 6:<br>
+	Múltiplos de 6:  0, 6, 12, 18, 24, 30,...<br>
+	Múltiplos de 4:  0, 4, 8, 12, 16, 20, 24,...<br>
+	Múltiplos comuns de 4 e 6:  0, 12, 24,...<br>
+	Dentre estes múltiplos, diferentes de zero, 12 é o menor deles. Chamamos o 12 de mínimo múltiplo comum de 4 e 6.
+	</p>
+	
+	<b class="topico">
+	<br>
+	Cálculo do M.M.C.
+	</b>
+	<br>
+	<p class="cpetec">
+	Podemos calcular o m.m.c. de dois ou mais números utilizando a fatoração. Acompanhe o cálculo do m.m.c. de 12 e 30:<br>
+	<b class="topico">
+	1º) </b>decompomos os números em fatores primos; <br>
+	<b class="topico">
+	2º)</b> o m.m.c. é o produto dos fatores primos comuns e não-comuns. <br>
+	O m.m.c. de dois ou mais números, quando fatorados, é o produto dos fatores comuns e não-comuns a eles, 
+	cada um elevado ao maior expoente.
+	</p>
+	<br>
+	<b class="topico">
+	Processo da decomposição simultânea
+	</b> <br>
+	<p class="cpetec">
+	Neste processo, decompomos todos os números ao mesmo tempo, em um dispositivo como mostra a figura abaixo.
+	O produto dos fatores primos que obtemos nessa decomposição é o m.m.c. desses números. 
+	A seguir vemos o cálculo do m.m.c.(15,24,60).
+	</p>
+	<br>
+	<img src="foto/mmc.jpg" class="mmc">
+	<br>
+	<br>
+	<p class="cpetec">
+	Portanto, m.m.c.(15,24,60) = 2 x 2 x 2 x 3 x 5 = 120
+	</p>
+	<br>
+	<b class="topico">
+	Propriedades do M.M.C
+	</b>
+	<p class="cpetec">
+		Entre os números 3, 6 e 30, o número 30 é múltiplo dos outros dois. Neste caso, 30 é o m.m.c.(3,6,30).<br> Observe: <br>
+	</p>
+	<img src="foto/mmc2.jpg" class="mmc2">
+	<br>
+	<p class="cpetec">
+	m.m.c.(3,6,30) = 2 x 3 x 5 = 30 <br>
+	Dados dois ou mais números, se um deles é múltiplo de todos os outros, então ele é o m.m.c. dos números dados. <br> <br>
+	Considere os números 4 e 15, que são primos entre si. O m.m.c.(4,15) é igual a 60, que é o produto de 4 por 15. Observe:<br>
+	</p>
+	<img src="foto/mmc3.jpg" class="mmc2">
+	<p class="cpetec">
+	m.m.c.(4,15) = 2 x 2 x 3 x 5 = 60<br>
+	Dados dois números primos entre si, o m.m.c. deles é o produto desses números.
+	</p>
+	</div>
+	
+	<footer class="footer-distributed">
+			<div class="footer-left">
+				<img src="foto/logo.png" class="imgfooter">
+				<p class="footer-links">
+					<a href="https://www.vestibulinhoetec.com.br/unidades-cursos/default.asp?q=S%C3%A3o%20Paulo" target="blank">Etecs de São Paulo</a>
+					·
+					<a href="eu.html"> Sobre mim</a>
+					·
+					<a href="disciplinas.html"> Disciplinas</a>
+					·
+					<a href="index.html">Home</a>
+					·
+					<a href="prova.html">Provas</a>
+					·
+					<a href="curso.html"> Sobre o curso</a>
+				</p>
+				<p class="footer-company-name">CPETEC&copy; 2019, Todos os direitos reservados </p>
+			</div>
+		</footer>
+</body>
+</html>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
